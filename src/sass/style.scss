@@ -1,0 +1,87 @@
+@import './variables';
+
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url(../fonts/JF-Flat-regular.eot);
+    src: url(../fonts/JF-Flat-regular.eot?#iefix) format('embedded-opentype'),
+        url('../fonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+        url(../fonts/JF-Flat-regular.woff) format('woff'),
+        url(../fonts/JF-Flat-regular.ttf) format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+body {
+    font-family: 'JF Flat regular','segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+}
+
+header {
+    .navbar {
+        background-color: $main-color ;
+        &-brand {
+            padding-right: 70px;
+           
+            img {
+                height: 50px;
+                width: 50px;
+                background-color: $nav-foot-font-color;
+                border-radius: 50%;
+                padding: 2px;
+            }
+        }
+    
+        .navbar-nav {
+            .nav-item {
+               .nav-link {
+                color: $nav-foot-font-color;
+               }
+            }
+        }
+        
+    }
+}
+
+footer {
+    background-color: $main-color;
+    .news-label {
+        color: $nav-foot-font-color;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    .news-input {
+        height: 40px;
+        width: 40%;
+        text-align: right !important;
+    }
+
+    button {
+        height: 40px;
+        line-height: 0;
+        width: 10%;
+        background-color: white;
+        border: 1px solid white;
+    }
+
+    .social-media {
+        list-style: none;
+        margin-top: 30px;
+        margin-left: 25px;
+        .icon {
+            display: inline !important;
+            font-size: 30px !important;
+            margin-left: 15px;
+            a {
+                color: $secondary-color;
+                transition: all 0.5s ease;
+                &:hover {
+                    color: #a89487;
+                }
+            }
+        }
+    }
+
+}
