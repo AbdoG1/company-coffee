@@ -44,8 +44,122 @@ header {
     }
 }
 
+
+main {
+    .carousel {
+        &-inner {
+            .carousel-item {
+                img {
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+        }
+
+        &-indicators {
+            top: 450px;
+            right: 60%;
+            .carousel-indicator-pic {
+                height: 70px !important;
+                width: 70px !important;
+                opacity: 1 !important;
+                border: 2px solid #DDDDDB !important;
+                margin: 0 !important;
+                margin-left: 5px !important;
+            }
+        }
+
+        &-control-prev {
+            .fa-chevron-right {
+                color: $secondary-color !important;
+                font-size: 30px;
+            }
+        }
+
+        &-control-next {
+            .fa-chevron-left {
+                color: $secondary-color !important;
+                font-size: 30px;
+            }
+        }
+    }
+
+    .service-cards {
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+        .service-title {
+            h3 {
+                margin-bottom: 30px;
+                font-size: 36px;
+                color: $secondary-color;
+                margin-left: 50px;
+            }
+            .service-line {
+                width: 25%;
+                background-color: $secondary-color;
+                transform: translateX(10%);
+                margin-top: -15px;
+                margin-bottom: 40px;
+            }
+        }
+        .card {
+           height: 190px;
+           border: 1px solid $secondary-color;
+           &-body {
+            p {
+                font-size: 20px;
+                color: $secondary-color;
+            }
+
+            h5 {
+                font-size: 40px;
+                color: $main-color;
+            }
+           }
+        }
+    }
+
+    .product-cards {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        .product-title {
+            h3 {
+                margin-bottom: 30px;
+                font-size: 36px;
+                color: $secondary-color;
+                margin-left: 50px;
+            }
+
+            .product-line {
+                width: 25%;
+                background-color: $secondary-color;
+                transform: translateX(10%);
+                margin-top: -15px;
+                margin-bottom: 40px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+
+            .card {
+                height: 350px;
+                &-body {
+                   color: $secondary-color;
+                   &:hover {
+                    color: #a89487;
+                   }
+                }
+            }
+        }
+    }
+}
+
+
 footer {
     background-color: $main-color;
+    margin-bottom: -19px;
     .news-label {
         color: $nav-foot-font-color;
         padding-top: 50px;

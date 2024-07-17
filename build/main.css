@@ -9626,8 +9626,92 @@ header .navbar .navbar-nav .nav-item .nav-link {
   color: white;
 }
 
+main .carousel-inner .carousel-item img {
+  height: 500px;
+  width: 100%;
+}
+main .carousel-indicators {
+  top: 450px;
+  right: 60%;
+}
+main .carousel-indicators .carousel-indicator-pic {
+  height: 70px !important;
+  width: 70px !important;
+  opacity: 1 !important;
+  border: 2px solid #DDDDDB !important;
+  margin: 0 !important;
+  margin-left: 5px !important;
+}
+main .carousel-control-prev .fa-chevron-right {
+  color: #160f0b !important;
+  font-size: 30px;
+}
+main .carousel-control-next .fa-chevron-left {
+  color: #160f0b !important;
+  font-size: 30px;
+}
+main .service-cards {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+main .service-cards .service-title h3 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #160f0b;
+  margin-left: 50px;
+}
+main .service-cards .service-title .service-line {
+  width: 25%;
+  background-color: #160f0b;
+  transform: translateX(10%);
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+main .service-cards .card {
+  height: 190px;
+  border: 1px solid #160f0b;
+}
+main .service-cards .card-body p {
+  font-size: 20px;
+  color: #160f0b;
+}
+main .service-cards .card-body h5 {
+  font-size: 40px;
+  color: #6F4E37;
+}
+main .product-cards {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+main .product-cards .product-title h3 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #160f0b;
+  margin-left: 50px;
+}
+main .product-cards .product-title .product-line {
+  width: 25%;
+  background-color: #160f0b;
+  transform: translateX(10%);
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+main .product-cards a {
+  text-decoration: none;
+}
+main .product-cards a .card {
+  height: 350px;
+}
+main .product-cards a .card-body {
+  color: #160f0b;
+}
+main .product-cards a .card-body:hover {
+  color: #a89487;
+}
+
 footer {
   background-color: #6F4E37;
+  margin-bottom: -19px;
 }
 footer .news-label {
   color: white;
