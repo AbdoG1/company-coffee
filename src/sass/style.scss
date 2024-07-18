@@ -154,6 +154,108 @@ main {
             }
         }
     }
+
+    .about {
+        &-title {
+            h3 {
+                font-size: 36px;
+                color: $secondary-color;
+            }
+            &-line {
+                background-color: $main-color;
+            }
+        }
+        &-body {
+            p {
+                font-size: 18px;
+                line-height: 36px;
+            }
+        }
+    }
+
+    .working-time {
+        margin-bottom: 50px;
+        h4 {
+            color: $secondary-color;
+        }
+        .closed {
+            color: #B03A2E;
+        }
+    }
+
+    .message-place {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        &-title {
+            margin-bottom: 30px;
+           h3 {
+            color: $secondary-color;
+           }
+           &-line {
+            background-color: $main-color;
+            width: 25%;
+           }
+        }
+        .message {
+            &-name {
+                height: 40px;
+                width: 60%;
+                transform: translateX(-20%);
+                
+            }
+            &-email {
+                height: 40px;
+                width: 60%;
+                text-align: right !important;
+                transform: translateX(-20%);
+            }
+            &-btn {
+                width: 40%;
+                height: 40px;
+                margin-top: 10px;
+                transform: translateX(-30%);
+                background-color: $main-color;
+                color: white;
+                
+            }
+            &-text {
+                transform: translateX(20%);
+            }
+        }
+    }
+
+    .distributors {
+        &-title {
+            h3 {
+                color: $secondary-color;
+                font-size: 36px;
+            }
+            &-line {
+                width: 25%;
+                background-color: $secondary-color;
+                margin-bottom: 30px;
+            }
+        }
+
+        &-cards {
+            .card {
+                height: 205px;
+            }
+            .fa-phone {
+                margin-left: 5px;
+            }
+            &-name {
+                color: $secondary-color;
+                margin-right: 5px;
+                font-size: 18px;
+            }
+            &-detailed-location {
+                color: $secondary-color;
+                margin-right: 5px;
+                font-size: 18px;
+            }
+        }
+    }
 }
 
 

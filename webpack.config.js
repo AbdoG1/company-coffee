@@ -86,7 +86,22 @@ module.exports = {
           template: './src/contact.html',
           filename: 'contact.html'
           }),
-      
+
+        new HtmlWebpackPlugin({
+          template: './src/product1.html',
+          filename: 'product1.html'
+          }),
+
+        new HtmlWebpackPlugin({
+          template: './src/product2.html',
+          filename: 'product2.html'
+          }),
+
+        new HtmlWebpackPlugin({
+          template: './src/product3.html',
+          filename: 'product3.html'
+          }),
+  
 
         new MiniCssExtractPlugin()
     ],

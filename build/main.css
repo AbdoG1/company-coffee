@@ -9708,6 +9708,87 @@ main .product-cards a .card-body {
 main .product-cards a .card-body:hover {
   color: #a89487;
 }
+main .about-title h3 {
+  font-size: 36px;
+  color: #160f0b;
+}
+main .about-title-line {
+  background-color: #6F4E37;
+}
+main .about-body p {
+  font-size: 18px;
+  line-height: 36px;
+}
+main .working-time {
+  margin-bottom: 50px;
+}
+main .working-time h4 {
+  color: #160f0b;
+}
+main .working-time .closed {
+  color: #B03A2E;
+}
+main .message-place {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .message-place-title {
+  margin-bottom: 30px;
+}
+main .message-place-title h3 {
+  color: #160f0b;
+}
+main .message-place-title-line {
+  background-color: #6F4E37;
+  width: 25%;
+}
+main .message-place .message-name {
+  height: 40px;
+  width: 60%;
+  transform: translateX(-20%);
+}
+main .message-place .message-email {
+  height: 40px;
+  width: 60%;
+  text-align: right !important;
+  transform: translateX(-20%);
+}
+main .message-place .message-btn {
+  width: 40%;
+  height: 40px;
+  margin-top: 10px;
+  transform: translateX(-30%);
+  background-color: #6F4E37;
+  color: white;
+}
+main .message-place .message-text {
+  transform: translateX(20%);
+}
+main .distributors-title h3 {
+  color: #160f0b;
+  font-size: 36px;
+}
+main .distributors-title-line {
+  width: 25%;
+  background-color: #160f0b;
+  margin-bottom: 30px;
+}
+main .distributors-cards .card {
+  height: 205px;
+}
+main .distributors-cards .fa-phone {
+  margin-left: 5px;
+}
+main .distributors-cards-name {
+  color: #160f0b;
+  margin-right: 5px;
+  font-size: 18px;
+}
+main .distributors-cards-detailed-location {
+  color: #160f0b;
+  margin-right: 5px;
+  font-size: 18px;
+}
 
 footer {
   background-color: #6F4E37;
