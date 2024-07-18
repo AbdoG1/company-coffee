@@ -9595,6 +9595,92 @@ a.text-dark:focus, a.text-dark:hover {
 /*!**************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/style.scss ***!
   \**************************************************************************************************************/
+.product1 {
+  background-color: #AB8A73;
+}
+
+.carousel-product {
+  margin-top: 50px;
+}
+.carousel-product .carousel-item img {
+  height: 400px !important;
+}
+.carousel-product .carousel-details-title {
+  font-size: 22px;
+  color: #935116;
+}
+.carousel-product .carousel-details-pargraf {
+  font-size: 20px;
+}
+.carousel-product .carousel-add .add-btn {
+  margin-top: 20px;
+  background-color: #6F4E37;
+  color: white;
+  height: 50px;
+}
+
+.reviews {
+  margin-top: 100px;
+}
+.reviews-title {
+  color: #160f0b;
+  font-size: 36px;
+}
+.reviews-title-line {
+  width: 25%;
+  background-color: #160f0b;
+  margin-bottom: 50px;
+}
+.reviews .media {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+.reviews .media img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.reviews .media-body {
+  padding: 5px 0;
+}
+.reviews .media-body .comment {
+  padding: 5px 0;
+}
+
+.product2 {
+  background-color: #6B6B6D;
+}
+
+.carousel-product .carousel-details-title2 {
+  font-size: 22px;
+  color: #1B1B1D;
+  margin-left: 10px;
+}
+.carousel-product .carousel-add .add-btn2 {
+  background-color: #1B1B1D;
+  color: white;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.product3 {
+  background-color: #5B3A23;
+}
+
+.carousel-product .carousel-details-title3 {
+  font-size: 22px;
+  color: #160f0b;
+  margin-left: 10px;
+}
+.carousel-product .carousel-add .add-btn3 {
+  background-color: #160f0b;
+  color: white;
+  height: 50px;
+  margin-top: 20px;
+}
+
 @font-face {
   font-family: "JF Flat Regular";
   src: url(../35851866bd85c868013e.eot);

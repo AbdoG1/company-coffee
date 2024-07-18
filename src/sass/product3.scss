@@ -1,0 +1,21 @@
+.product3 {
+    background-color: $product3-background-color;
+}
+
+.carousel-product {
+    .carousel-details {
+        &-title3 {
+            font-size: 22px;
+            color: $secondary-color;
+            margin-left: 10px;
+        }
+    }
+    .carousel-add {
+        .add-btn3 {
+            background-color: $secondary-color;
+            color: white;
+            height: 50px;
+            margin-top: 20px;
+        }
+    }
+}
