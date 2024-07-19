@@ -4,7 +4,7 @@ const path = require('path');
 const loader = require("sass-loader");
 
 module.exports = {
-
+  
     entry: './src/js/index.js',
 
     output: {
@@ -54,6 +54,14 @@ module.exports = {
             loader: 'html-loader',
           },
 
+          {
+            test: require.resolve("jquery"),
+            loader: "expose-loader",
+            options: {
+              exposes: ["$", "jQuery"],
+            },
+          },
+
         ],
       },
 
@@ -67,6 +75,7 @@ module.exports = {
         },
 
     plugins: [
+
         new HtmlWebpackPlugin({
         template: './src/index.html',
         filename: 'index.html'

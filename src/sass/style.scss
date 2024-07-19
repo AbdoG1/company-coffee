@@ -42,6 +42,9 @@ header {
                 color: $nav-foot-font-color;
                }
             }
+            .active {
+                border-bottom: 1px solid white;
+            }
         }
         
     }
@@ -49,6 +52,7 @@ header {
 
 
 main {
+    margin-top: 75px;
     .carousel {
         &-inner {
             .carousel-item {
@@ -304,4 +308,503 @@ footer {
         }
     }
 
+}
+
+@media(max-width: 991px) {
+
+    .service-cards {
+        .card {
+            transform: translateX(-15%);
+            margin-bottom: 20px;
+            width: 500px !important;
+        }
+    }
+
+    .product-cards {
+        .card {
+            width: 500px !important;
+            height: 450px !important;
+            margin-bottom: 30px;
+            transform: translateX(-15%);
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(-10%);
+            width: 600px;
+        }
+
+        .card {
+            width: 400px !important;
+            transform: translateX(-40%);
+            margin: 20px 0;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 200px !important;
+        }
+
+        textarea {
+            width: 300px !important;
+        }
+    }
+}
+
+
+@media (max-width: 930px) {
+    .carousel {
+        &-indicators {
+            margin-right: -300px;
+        }
+    }
+
+    .service-cards {
+        .card {
+            transform: translateX(-15%);
+            margin-bottom: 20px;
+            width: 500px !important;
+        }
+    }
+
+    .product-cards {
+        .card {
+            width: 500px !important;
+            height: 450px !important;
+            margin-bottom: 30px;
+            transform: translateX(-15%);
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(-10%);
+            width: 600px;
+        }
+
+        .card {
+            width: 400px !important;
+            transform: translateX(-40%);
+            margin: 20px 0;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 200px !important;
+        }
+
+        textarea {
+            width: 300px !important;
+        }
+    }
+}
+
+
+@media (max-width: 770px) {
+
+    .service-cards {
+        .card {
+            transform: translateX(0);
+            margin-bottom: 20px;
+            width: 500px !important;
+        }
+    }
+
+    .product-cards {
+        .card {
+            width: 500px !important;
+            height: 450px !important;
+            margin-bottom: 30px;
+            transform: translateX(0);
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(8%);
+            width: 600px;
+        }
+
+        .card {
+            width: 400px !important;
+            transform: translateX(-15%);
+            margin: 20px 0;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 250px !important;
+        }
+
+        textarea {
+            width: 250px !important;
+            transform: translateX(30%) !important;
+            margin-top: -40px;
+        }
+
+        button {
+            transform: translateX(-85%) !important;
+            
+        }
+    }
+}
+
+@media (max-width: 532px) {
+    
+    .carousel {
+        &-indicators {
+            margin-right: -200px;
+            
+        }
+    }
+    .service-cards {
+        .service-title {
+            transform: translateX(-4%);
+        }
+        .service-line {
+            width: 50% !important;
+        }
+        .card {
+            transform: translateX(-30%);
+            margin-bottom: 20px;
+            width: 300px !important;
+        }
+    }
+
+    .product-cards {
+        .product-title {
+            transform: translateX(-4%);
+        }
+        .product-line {
+            width: 50% !important;
+        }
+        .card {
+            width: 300px !important;
+            height: 350px !important;
+            margin-bottom: 30px;
+            transform: translateX(-30%);
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(-10%);
+            width: 400px;
+        }
+
+        .card {
+            width: 400px !important;
+            transform: translateX(-10%);
+            margin: 20px 0;
+        }
+    }
+
+    .working-time {
+        h4 {
+            font-size: 16px;
+        }
+        .closed {
+            font-size: 16px;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 200px !important;
+            display: block;
+        }
+
+        textarea {
+            width: 200px !important;
+            transform: translateX(50%) !important;
+            margin-top: -40px;
+        }
+
+        button {
+            transform: translateX(50%);
+            width: 150px !important;
+            
+        }
+    }
+}
+
+@media(max-width: 430px) {
+    .carousel {
+        &-indicators {
+            display: none;
+            
+        }
+    }
+    .service-cards {
+        .service-title {
+            transform: translateX(-4%);
+        }
+        .service-line {
+            width: 50% !important;
+        }
+        .card {
+            transform: translateX(-10%);
+            margin-bottom: 20px;
+            width: 300px !important;
+        }
+    }
+
+    .product-cards {
+        .product-title {
+            transform: translateX(-4%);
+        }
+        .product-line {
+            width: 50% !important;
+        }
+        .card {
+            width: 300px !important;
+            height: 350px !important;
+            margin-bottom: 30px;
+            transform: translateX(-10%);
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(-10%);
+            width: 300px;
+        }
+
+        .card {
+            width: 300px !important;
+            transform: translateX(-10%);
+            margin: 20px 0;
+        }
+    }
+
+    .working-time {
+        h4 {
+            font-size: 14px;
+        }
+        .closed {
+            font-size: 14px;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 200px !important;
+            display: block;
+        }
+
+        textarea {
+            width: 200px !important;
+            transform: translateX(25%) !important;
+            margin-top: -40px;
+        }
+
+        button {
+            margin-right: 30px;
+            width: 130px !important;
+            
+        }
+    }
+
+    footer {
+        .news-form {
+            button {
+                width: 70px;
+            }
+        }
+    }
+
+}
+
+
+@media(max-width: 370px) {
+    .service-cards {
+        .service-title {
+            transform: translateX(-4%);
+        }
+        .service-line {
+            width: 50% !important;
+        }
+        .card {
+            transform: translateX(-5%);
+            margin-bottom: 20px;
+            width: 300px !important;
+        }
+    }
+
+    .product-cards {
+        .product-title {
+            transform: translateX(-4%);
+        }
+        .product-line {
+            width: 50% !important;
+        }
+        .card {
+            width: 300px !important;
+            height: 350px !important;
+            margin-bottom: 30px;
+            transform: translateX(-5%);
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(-5%);
+            width: 300px;
+        }
+
+        .card {
+            width: 300px !important;
+            transform: translateX(-5%);
+            margin: 20px 0;
+        }
+    }
+
+    .working-time {
+        h4 {
+            font-size: 18px;
+        }
+        .closed {
+            font-size: 18px;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 200px !important;
+            display: block;
+            transform: translateX(-5%) !important;
+        }
+
+        textarea {
+             
+            width: 200px !important;
+            transform: translateX(25%) !important;
+            margin-top: -40px;
+        }
+
+        button {
+            transform: translateX(-100%) !important;
+            width: 80px !important;
+        }
+    }
+}
+
+@media(max-width: 360px) {
+    .service-cards {
+        .service-title {
+            transform: translateX(-4%);
+        }
+        .service-line {
+            width: 50% !important;
+        }
+        .card {
+            transform: translateX(-5%);
+            margin-bottom: 20px;
+            width: 250px !important;
+            height: 210px !important;
+        }
+    }
+
+    .product-cards {
+        .product-title {
+            transform: translateX(-4%);
+        }
+        .product-line {
+            width: 50% !important;
+        }
+        .card {
+            width: 250px !important;
+            height: 350px !important;
+            margin-bottom: 30px;
+            transform: translateX(-5%);
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(-5%);
+            width: 250px;
+        }
+
+        .card {
+            width: 250px !important;
+            transform: translateX(-5%);
+            margin: 20px 0;
+        }
+    }
+
+    .working-time {
+        h4 {
+            font-size: 15px;
+        }
+        .closed {
+            font-size: 15px;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 225px !important;
+            display: block;
+            
+        }
+
+        textarea {
+             
+            width: 180px !important;
+            margin-left: -20px !important;
+            margin-top: -40px;
+        }
+
+        button {
+            transform: translateX(-158%) !important;
+            width: 50px !important;
+        }
+    }
+}
+
+@media(max-width: 260px) {
+    .service-cards {
+        .card {
+            height: 250px !important;
+            margin-bottom: 20px;
+            width: 200px !important;
+        }
+    }
+
+    .product-cards {
+        .card {
+            width: 200px !important;
+            height: 320px !important;
+            margin-bottom: 30px;
+            
+        }
+    }
+
+    .distributors-cards {
+        iframe {
+            transform: translateX(-10%);
+            width: 600px;
+        }
+
+        .card {
+            width: 400px !important;
+            transform: translateX(-40%);
+            margin: 20px 0;
+        }
+    }
+
+    .message-place {
+        input {
+            width: 200px !important;
+        }
+
+        textarea {
+            width: 300px !important;
+        }
+    }
 }

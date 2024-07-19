@@ -9,22 +9,25 @@ import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
 
-if (window.NodeList && !NodeList.prototype.forEach) {
-  NodeList.prototype.forEach = function (callback, thisArg) {
-      thisArg = thisArg || window;
-      for (var i = 0; i < this.length; i++) {
-          callback.call(thisArg, this[i], i, this);
-      }
-  };
-}
+
+
 
 document.getElementById('date').appendChild(document.createTextNode(new Date().getFullYear()));
 
-document.querySelectorAll('.add-btn').forEach(item => {
-  item.addEventListener('click', () => {
-      alert('اضيف المنتج الى عربة الشراء')
-  })
-})
+$(document).ready(function() { 
+	$(".nav-link").click(function(event) { 
+     	var $this = $(this);
+     	$(".nav-link").removeClass("active");  
+      	$this.removeClass('active');
+      	 $($this).addClass("active"); 
+ });
+});
+
+$(function () {
+  $(".add-btn").click(function () {
+      alert("تمت الاضافة الى عربة الشراء");
+  });
+});
 
 
 (function() {
