@@ -14,8 +14,7 @@
 
     .carousel-details {
         &-title {
-            font-size: 22px;
-            color: $main-product1-font-color;
+           @include title-style($main-product1-font-color)
         }
         &-pargraf {
             font-size: 20px;
@@ -24,10 +23,7 @@
 
     .carousel-add {
         .add-btn {
-            margin-top: 20px;
-            background-color: $main-color;
-            color: white;
-            height: 50px;
+           @include button-style($main-color, white)
         }
     }
 }

@@ -1,0 +1,15 @@
+
+
+@mixin button-style($background-color, $color,) {
+    background-color: $background-color;
+    color: $color;
+    margin-top: 20px;
+    height: 50px;
+}
+
+@mixin title-style($color) {
+    color: $color;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
